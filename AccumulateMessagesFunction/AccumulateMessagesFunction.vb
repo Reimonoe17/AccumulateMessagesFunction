@@ -1,4 +1,14 @@
-﻿Module AccumulateMessagesFunction
+﻿'Jamison Burton
+'RCET0265
+'Spring 2022
+'AccumulateMessagesFunction
+'https://github.com/Reimonoe17/AccumulateMessagesFunction
+
+Option Strict On
+Option Explicit On
+Option Compare Text
+
+Module AccumulateMessagesFunction
 
     Sub Main()
         Dim userInput As String
