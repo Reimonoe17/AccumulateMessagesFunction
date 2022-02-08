@@ -3,7 +3,7 @@
     Sub Main()
         Dim userInput As String
 
-        Console.WriteLine("Type out your thoughts: " & Chr(34) & "C" & Chr(34) & " will clear & " & Chr(34) & "Q" & Chr(34) & " will quit")
+        Console.WriteLine("Type out your thoughts: " & Chr(34) & "C" & Chr(34) & " will clear & " & Chr(34) & "Q" & Chr(34) & " will quit program")
 
         Do
             userInput = Console.ReadLine
