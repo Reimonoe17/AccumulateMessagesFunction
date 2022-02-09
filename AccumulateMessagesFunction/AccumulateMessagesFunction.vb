@@ -25,6 +25,7 @@ Module AccumulateMessagesFunction
                 Case Else
                     UserMessage(userInput, False)
             End Select
+
         Loop While userInput <> "Q"
 
         Console.WriteLine(UserMessage("", False))
@@ -34,10 +35,11 @@ Module AccumulateMessagesFunction
 
     Function UserMessage(ByVal newMessage As String, ByVal clear As Boolean) As String
         Static message As String
-        If clear = False Then
-            message &= newMessage & vbNewLine
-        Else
+
+        If clear = True Then
             message = ""
+        ElseIf newMessage <> "" Then
+            message &= newMessage & vbNewLine
         End If
         Return message
     End Function
